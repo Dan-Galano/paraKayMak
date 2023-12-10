@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+   
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.system-name{
+    margin-top: 10px;
+    margin-right: 100px;
+    font-size: 1.48rem;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.system-name label{
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 1.48rem;
+    font-family: "Poppins", sans-serif;
+    opacity: 0.8;
+}
+
+
+#logout{
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#logout:hover{
+   cursor: pointer;
+}
+
+/* Style the top section */
+.top-section {
+    display: flex;
+    align-items: center;
+    padding: 10px 70px;
+    max-width: 25%;
+    background-color: white;
+    position: sticky;
+}
+
+
+/* Style the logo */
+.logo {
+    max-width: 100px; /* Adjust the max-width as needed */
+    margin-right: 10px; /* Add spacing between the logo and text */
+}
+
+/* Style the university name */
+
+.top-section label{
+    color: black;
+    font-size: 2rem;
+   
+}
+.university-name {
+    font-size: 1.44rem;
+    font-weight: 500;
+    color: black;
+}
+
+#left-nav{
+    margin-left: 50px;
+}
+
+.navi{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 8%;
+    padding-right: 8%;
+    align-items: center;
+    background-color: #1935DA;
+    position: sticky;
+    top: 0;
+}
+
+#selected{
+    background-color: #fff;
+    color: black;
+}
+.navi ul{
+    display: flex;
+    list-style: none;
+    
+}
+.navi ul li{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.navi ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    transition: all .5s ease;
+}
+.navi ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px white;
+}
+
+.container{
+    font-family: "Poppins", sans-serif;
+}
+
+.fields form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+
+.input1{ 
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+   margin-left: 7%;
+    
+}
+
+.input1 label{ 
+   margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.input1 input{ 
+    margin-bottom: 40px;
+    height: 40px;
+    border: #1935DA solid 2px;
+    outline: #1935DA;
+    border-radius: 5px;
+    padding: 5px 15px;
+ }
+
+ .input1 textarea{ 
+    margin-bottom: 10px;
+    border: #1935DA solid 2px;
+    outline: #1935DA;
+    border-radius: 5px;
+    padding: 10px 15px;
+ }
+
+
+ .input1 input :hover{ 
+   cursor: pointer;
+ }
+
+ .input1 textarea:hover{ 
+    cursor: pointer;
+ }
+
+.input2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-right: 180px;
+}
+
+#program-label{
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.input2 label{ 
+    margin-bottom: 10px;
+    font-weight: bold;
+   
+ }
+
+.input2 input{ 
+    opacity: 0.9;
+    margin-bottom: 40px;
+    height: 40px;
+    border: #1935DA solid 2px;
+    outline: #1935DA;
+    border-radius: 5px;
+    padding: 8px 15px;
+ }
+
+ #program{ 
+    opacity: 0.9;
+    margin-bottom: 30px;
+    border: #1935DA solid 2px;
+    outline: #1935DA;
+    border-radius: 5px;
+    padding: 10px 15px;
+ }
+
+ 
+
+ #submitFile{
+    margin-top: 80px;
+    margin-left: 70%;
+    background-color: #1935DA;
+    color: #fff;
+    height: 50px;
+    width: 170px;
+    font-weight: bold;
+    font-size: 1rem;
+ }
+
+ .input2 input:hover{ 
+   cursor: pointer;
+ }
+
+ #program:hover{ 
+    cursor: pointer;
+ }
+
+ 
+
+ #submitFile:hover{
+   cursor: pointer;
+ }
+
+ #submitFile:hover{
+    cursor: pointer;
+ }
+

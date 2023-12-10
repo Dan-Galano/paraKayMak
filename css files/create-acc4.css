@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: #1935DA;
+    
+}
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.system-name{
+    margin-top: 50px;
+    margin-right: 100px;
+    font-size: 1.48rem;
+    font-family: "Poppins", sans-serif;
+    opacity: 0.8;
+}
+/* Style the top section */
+.top-section {
+  display: flex;
+  align-items: center;
+  padding: 10px 70px;
+  max-width: 34%;
+  position: sticky;
+}
+
+
+/* Style the logo */
+.logo {
+  max-width: 100px; /* Adjust the max-width as needed */
+  margin-right: 10px; /* Add spacing between the logo and text */
+}
+
+/* Style the university name */
+
+.top-section label{
+  color: black;
+  font-size: 2rem;
+  font-weight: 600;
+  opacity: 0.9;
+ 
+}
+.university-name {
+  font-size: 1.44rem;
+  font-weight: 400;
+  color: black;
+}
+
+.wrap-header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.login{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login a{
+   text-decoration: none;
+   color: #1935DA;
+}
+.title{
+    opacity: 0.9;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.text-header{
+  margin-top: 20px;
+  font-size: 1.9rem;
+}
+
+.text-header2{
+  font-size: 1.37rem;
+  font-weight: 500;
+}
+
+.wrapper{
+  border-radius: 5px;
+  max-width: 550px;
+  width: 100%;
+  background: #fff;
+  margin: 20px auto;
+  padding: 30px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+  margin-top: 100px;
+}
+
+.wrapper form{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;  
+  margin-bottom: 20px;
+     
+}
+
+
+.wrapper .labels ul{
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  margin-bottom: 10px;
+  font-weight: bold;
+  opacity: 0.8;
+  
+}
+
+.wrapper .labels ul li{
+  list-style: none;
+  margin-left: 15px;
+  
+}
+
+#second-Label{
+  margin-left: 128px;
+ 
+}
+
+#third-Label{
+    margin-left: 129px;
+   
+  }
+
+  .field-input1{
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .top-inp{
+    margin-bottom: 10px;
+  }
+
+  #last-name{
+    margin-left: 15px;
+  }
+
+  .top-inp input{
+   margin-left: 14.5px;
+  }
+
+.wrapper .field-input1 input{
+ height: 40px;
+ width: 190px;
+ border: 1;
+ padding: 7px 10px;
+}
+
+.wrapper .field-input2 {
+   font-family: "Poppins", sans-serif;
+   margin-left: 14.5px;
+}
+
+
+
+.wrapper .field-input2 .major-select select{
+    margin-top: 10px;
+    height: 40px;
+    width: 467px;
+    border: 1;
+    padding: 7px 10px;
+    margin-bottom: 20px;
+}
+
+.wrapper .field-input2 label{
+    font-weight: bold;
+    opacity: 0.8;
+    
+}
+
+.wrapper .field-input2 input{
+    height: 40px;
+    width: 461px;
+    border: 1;
+    padding: 7px 10px;
+    margin-bottom: 20px;
+}
+
+.wrapper .field-input3{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper .field-input3 input{
+    margin-bottom: 10px;
+    height: 40px;
+    width: 467px;
+    margin-left: 14.5px;
+    
+}
+
+.wrapper .field-input3 label{
+    margin-bottom: 10px;
+    margin-left: 14.5px;
+    font-weight: bold;
+    opacity: 0.8;
+    
+}
+
+
+.wrapper hr{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: solid #1935DA 1px;
+    opacity: 0.5;
+}
+
+#middle-initial{
+    width: 50px;
+}
+
+.wrapper .user-label{
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.type-label{
+    
+    margin-left: 85px;
+    margin-bottom: 10px;
+}
+
+#type2{
+    margin-left: 28%;
+}
+
+.wrapper .user-type{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.wrapper .user-type i{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .user-type button{
+    background-color: #fff;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    border: solid #1935DA;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: #1935DA;
+    transition:  0.3s ease, color 0.3s ease;
+    
+}
+
+#second-type{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.wrapper .user-type button.clicked{
+    background-color: #1935DA;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    border: solid #1935DA;
+    border-radius: 10px;
+    color: #fff;
+    
+}
+
+
+.wrapper .buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+ 
+}
+
+#register{
+ background-color: #1935DA;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 130px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+
+/* Add this at the end of your existing CSS */
+
+@media only screen and (max-width: 968px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .top-section {
+        flex-direction: column;
+        padding: 10px;
+        max-width: none;
+    }
+
+    .logo {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .system-name {
+        margin-right: 0;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+}

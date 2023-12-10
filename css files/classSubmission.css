@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+   
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.system-name{
+    margin-top: 10px;
+    margin-right: 100px;
+    font-size: 1.48rem;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.system-name label{
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 1.48rem;
+    font-family: "Poppins", sans-serif;
+    opacity: 0.8;
+}
+
+
+#logout{
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#logout:hover{
+   cursor: pointer;
+}
+
+/* Style the top section */
+.top-section {
+    display: flex;
+    align-items: center;
+    padding: 10px 70px;
+    max-width: 34%;
+    background-color: white;
+    position: sticky;
+}
+
+
+/* Style the logo */
+.logo {
+    max-width: 100px; /* Adjust the max-width as needed */
+    margin-right: 10px; /* Add spacing between the logo and text */
+}
+
+/* Style the university name */
+
+.top-section label{
+    color: black;
+    font-size: 2rem;
+   
+}
+.university-name {
+    font-size: 1.44rem;
+    font-weight: 500;
+    color: black;
+}
+
+#left-nav{
+    margin-left: 50px;
+}
+
+.navi{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 8%;
+    padding-right: 8%;
+    align-items: center;
+    background-color: #1935DA;
+    position: sticky;
+    top: 0;
+}
+
+#selected{
+    background-color: #fff;
+    color: black;
+}
+.navi ul{
+    display: flex;
+    list-style: none;
+    
+}
+.navi ul li{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.navi ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    transition: all .5s ease;
+}
+.navi ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px white;
+}
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    
+
+}
+
+.Tables
+{
+   
+    max-width: 90%;
+    margin: auto;
+    margin-top: 5%;
+
+    
+    
+}
+.side-bar{
+    font-family: "Poppins", sans-serif;
+    color: #1935DA;
+   padding-top: 3.5%;
+   border-right: solid #1935DA 1px;
+   width: 23%;
+   
+}
+
+#date-search{
+    background-color: #1935DA;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    height: 25px;
+    width: 75px;
+    border-radius: 5px;
+    margin-left: 22%;
+    margin-top: 5%;
+    margin-bottom: 10px;
+}
+
+.side-bar .range{
+    padding-top: 10px;
+    padding-left: 22%;
+    padding-bottom: 10px;
+}
+
+.side-bar .range input{
+    width: 70px;
+    height: 25px;
+    border: solid #1935DA 1px;
+    outline: none;
+    padding-left: 20%;
+    color: #1935DA;
+    
+}
+.Tables table {
+    font-size: 14
+    px; /* Adjust the font size as needed */
+}
+
+
+
+.side-bar .range input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Remove number input arrows in Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+.container .side-bar hr{
+    border: solid #1935DA 1px;
+    opacity: 0.5;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+    
+}
+
+#end{
+    margin-left: 15%;
+    
+}
+
+.container .filter ul{
+    padding-left: 20%;
+    list-style: none;
+}
+
+.container .filter2{
+    padding-top: 20px;
+    padding-left: 20%;
+    margin-bottom: 20px;
+}
+
+.container .filter2 ul{
+    list-style: none;
+}
+
+.container .filter2 ul li{
+    margin-bottom: 7px;
+}
+
+#range-label{
+    padding-left: 20%;
+}
+
+.container .filter ul li{
+    margin-bottom: 10px;
+}
+
+
+
+.search-section{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 13%;
+    
+    
+}
+.search-bar{
+    
+    margin-top: 40px; 
+    height: 70px;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    border: solid #1935DA 2px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    position: sticky;
+    top: 20;
+   
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 7px 5px;
+    font-size: 20px;
+    color: #1935DA;
+}
+
+::placeholder{
+    color: #1935DA;
+}
+
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background: none;
+}
+
+.search-bar button i{
+    width: 25px;
+    color: #1935DA;
+}
+
+.search-result{
+    margin-top: 50px;
+    
+   
+}
+
+.search-result ul{
+    list-style: none;
+}
+
+.search-result ul li a{
+    text-decoration: none; 
+    color: black;
+    
+}
+
+.search-result ul li a:hover{
+    cursor: pointer;
+    
+}
+
+.search-result ul li a p{
+    margin-top: 10px;
+}
+
+.search-result ul li a label:hover{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1268px) {
+
+
+    
+    .side-bar input{
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    #date-search{
+        margin-left: 8px;
+    }
+
+    #end{
+        margin-left: 10px;
+    }
+
+    .search-bar {
+        flex-direction: column;
+        max-width: none;
+        margin-right: 380px;
+        width: 500px;
+    }
+
+    .search-bar input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .search-bar button i{
+        width: 100%;
+        margin-left: 430px;
+        color: #fff;
+    }    
+
+    #date-search,   
+    .side-bar .range,
+    .search-bar {
+        
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (max-width: 968px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+
+    .top-section {
+        flex-direction: column;
+        padding: 10px;
+        max-width: none;
+    }
+    .th{
+        font-size: 5px;
+    }
+
+    .logo {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .system-name {
+        margin-right: 0;
+        font-size: 1.2rem;
+    }
+
+    .navi {
+        flex-direction: column;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navi ul {
+        flex-direction: column;
+    }
+
+    .navi ul li {
+        padding: 10px 0;
+        font-size: 1rem;
+    }
+
+    .navi ul li a {
+        padding: 10px 15px;
+    }
+
+    .search-bar {
+        flex-direction: column;
+        max-width: none;
+        margin-right: 150px;
+        width: 500px;
+    }
+
+    .search-bar input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .search-bar button i{
+        width: 100%;
+        margin-left: 430px;
+        color: #fff;
+    }
+
+    
+
+    .side-bar {
+        flex-direction: column;
+        
+    }
+
+    #date-search,   
+    .side-bar .range,
+    .search-bar {
+        
+        flex-direction: column;
+    }
+
+    .search-bar {
+        max-width: 800px;
+    }
+}
+
+
+
